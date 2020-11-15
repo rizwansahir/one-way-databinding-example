@@ -9,6 +9,6 @@ export class HelloComponent  {
   @Input() name: string;
   @Input() title: string;
    ngOnInit(){
-    console.log("Name is"+ this.name);
+    console.log("Name is "+ this.name + " Title is " + this.title);
   }
 }

@@ -6,6 +6,4 @@ import { AppBaseComponentService } from "./app-base-component.service";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent extends AppBaseComponentService{
-  // public name: string = "";
-}
+export class AppComponent extends AppBaseComponentService {}
