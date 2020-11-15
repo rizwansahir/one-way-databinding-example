@@ -4,6 +4,6 @@ import { Injectable } from '@angular/core';
 export class AppBaseComponentService {
 
 constructor() { }
- public name: string = "";
- public title: string = "";
+ public name: string;
+ public title: string;
 }
